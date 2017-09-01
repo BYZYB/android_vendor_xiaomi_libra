@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/libra/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/libra/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/xiaomi/libra/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/xiaomi/libra/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/libra/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/libra/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -127,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/libra/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/libra/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/xiaomi/libra/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/xiaomi/libra/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
@@ -140,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/xiaomi/libra/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     vendor/xiaomi/libra/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
+    vendor/xiaomi/libra/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/xiaomi/libra/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/xiaomi/libra/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/libra/proprietary/vendor/bin/qti:system/vendor/bin/qti \
