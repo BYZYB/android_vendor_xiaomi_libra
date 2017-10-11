@@ -114,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libsensors.lsm6db0.so:system/vendor/lib/libsensors.lsm6db0.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libsensors.msm8992.so:system/vendor/lib/libsensors.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/libra/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/libra/proprietary/lib/libjni_resource_drm.so:system/lib/libjni_resource_drm.so \
@@ -133,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libsensors.lsm6db0.so:system/vendor/lib64/libsensors.lsm6db0.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libsensors.msm8992.so:system/vendor/lib64/libsensors.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/xiaomi/libra/proprietary/lib64/libjni_resource_drm.so:system/lib64/libjni_resource_drm.so \
     vendor/xiaomi/libra/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
