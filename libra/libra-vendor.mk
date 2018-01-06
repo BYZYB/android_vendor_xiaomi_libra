@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/xiaomi/libra/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/libra/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/xiaomi/libra/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/xiaomi/libra/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/libra/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/libra/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -568,7 +567,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libprotobuf-cpp-preo.so:system/vendor/lib64/libprotobuf-cpp-preo.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
