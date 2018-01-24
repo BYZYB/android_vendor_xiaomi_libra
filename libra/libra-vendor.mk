@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/xiaomi/libra/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/xiaomi/libra/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/xiaomi/libra/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/xiaomi/libra/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
@@ -447,7 +446,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
