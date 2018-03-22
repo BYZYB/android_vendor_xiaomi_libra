@@ -71,43 +71,43 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/xiaomi/libra/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/libra/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
-    vendor/xiaomi/libra/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/xiaomi/libra/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/xiaomi/libra/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/libra/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/libra/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qti_telephony_common.xml:system/vendor/etc/permissions/qti_telephony_common.xml \
     vendor/xiaomi/libra/proprietary/etc/sensor_diag.cfg:system/etc/sensor_diag.cfg \
     vendor/xiaomi/libra/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/xiaomi/libra/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/libra/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
     vendor/xiaomi/libra/proprietary/etc/wifibt_diag.cfg:system/etc/wifibt_diag.cfg \
-    vendor/xiaomi/libra/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/xiaomi/libra/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/xiaomi/libra/proprietary/lib/hw/activity_recognition.msm8994.so:system/lib/hw/activity_recognition.msm8994.so \
-    vendor/xiaomi/libra/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
-    vendor/xiaomi/libra/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
+    vendor/xiaomi/libra/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:system/vendor/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/xiaomi/libra/proprietary/vendor/framework/com.quicinc.cne.jar:system/vendor/framework/com.quicinc.cne.jar \
+    vendor/xiaomi/libra/proprietary/vendor/libhw/activity_recognition.msm8994.so:system/vendor/libhw/activity_recognition.msm8994.so \
+    vendor/xiaomi/libra/proprietary/vendor/libhw/camera.vendor.msm8992.so:system/vendor/libhw/camera.vendor.msm8992.so \
+    vendor/xiaomi/libra/proprietary/vendor/libhw/fingerprint.fpc.so:system/vendor/libhw/fingerprint.fpc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libsensors.lsm6db0.so:system/vendor/lib/libsensors.lsm6db0.so \
-    vendor/xiaomi/libra/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
-    vendor/xiaomi/libra/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
-    vendor/xiaomi/libra/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/xiaomi/libra/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/xiaomi/libra/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/libra/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/xiaomi/libra/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
-    vendor/xiaomi/libra/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/xiaomi/libra/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/xiaomi/libra/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/libra/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
-    vendor/xiaomi/libra/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibDiracAPI_SHARED.so:system/vendor/liblibDiracAPI_SHARED.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibcom_fingerprints_service.so:system/vendor/liblibcom_fingerprints_service.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibmm-qcamera.so:system/vendor/liblibmm-qcamera.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibmmcamera_interface.so:system/vendor/liblibmmcamera_interface.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibmmjpeg_interface.so:system/vendor/liblibmmjpeg_interface.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibmorpho_memory_allocator.so:system/vendor/liblibmorpho_memory_allocator.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibmorpho_panorama.so:system/vendor/liblibmorpho_panorama.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibqomx_core.so:system/vendor/liblibqomx_core.so \
+    vendor/xiaomi/libra/proprietary/vendor/liblibrmnetctl.so:system/vendor/liblibrmnetctl.so \
+    vendor/xiaomi/libra/proprietary/vendor/libsoundfx/libdirac.so:system/vendor/libsoundfx/libdirac.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/hw/activity_recognition.msm8994.so:system/vendor/lib64/hw/activity_recognition.msm8994.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/hw/fingerprint.fpc.so:system/vendor/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libsensors.lsm6db0.so:system/vendor/lib64/libsensors.lsm6db0.so \
-    vendor/xiaomi/libra/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
-    vendor/xiaomi/libra/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/xiaomi/libra/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/xiaomi/libra/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/xiaomi/libra/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/xiaomi/libra/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
-    vendor/xiaomi/libra/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
-    vendor/xiaomi/libra/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libcom_fingerprints_service.so:system/vendor/lib64/libcom_fingerprints_service.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libloc_core.so:system/vendor/lib64/libloc_core.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libloc_eng.so:system/vendor/lib64/libloc_eng.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libmorpho_memory_allocator.so:system/vendor/lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libmorpho_panorama.so:system/vendor/lib64/libmorpho_panorama.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/librmnetctl.so:system/vendor/lib64/librmnetctl.so \
     vendor/xiaomi/libra/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/xiaomi/libra/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/libra/proprietary/vendor/bin/qti:system/vendor/bin/qti \
