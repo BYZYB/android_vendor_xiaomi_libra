@@ -92,7 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libmorpho_memory_allocator.so:system/vendor/liblibmorpho_memory_allocator.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libmorpho_memory_allocator.so:system/vendor/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmorpho_panorama.so:system/vendor/lib/libmorpho_panorama.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
