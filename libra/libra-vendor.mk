@@ -83,6 +83,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/etc/wifibt_diag.cfg:system/etc/wifibt_diag.cfg \
     vendor/xiaomi/libra/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:system/vendor/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/xiaomi/libra/proprietary/vendor/framework/com.quicinc.cne.jar:system/vendor/framework/com.quicinc.cne.jar \
+    vendor/xiaomi/libra/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
+    vendor/xiaomi/libra/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
+    vendor/xiaomi/libra/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:system/vendor/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:system/vendor/lib/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/camera.vendor.msm8992.so:system/vendor/lib/hw/camera.vendor.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/fingerprint.fpc.so:system/vendor/lib/hw/fingerprint.fpc.so \
@@ -528,5 +531,4 @@ PRODUCT_PACKAGES += \
     imssettings \
     QtiTelephonyServicelibrary \
     qcnvitems \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
