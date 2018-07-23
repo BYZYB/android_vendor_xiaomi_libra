@@ -531,4 +531,5 @@ PRODUCT_PACKAGES += \
     imssettings \
     QtiTelephonyServicelibrary \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    qti-telephony-common
