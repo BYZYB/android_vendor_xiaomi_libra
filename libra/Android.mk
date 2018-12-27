@@ -109,7 +109,9 @@ LOCAL_SRC_FILES := proprietary/vendor/app/QtiTelephonyService/QtiTelephonyServic
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -120,7 +122,9 @@ LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -131,7 +135,9 @@ LOCAL_SRC_FILES := proprietary/vendor/app/datastatusnotification/datastatusnotif
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -142,7 +148,9 @@ LOCAL_SRC_FILES := proprietary/vendor/app/fastdormancy/fastdormancy.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -153,7 +161,9 @@ LOCAL_SRC_FILES := proprietary/vendor/app/shutdownlistener/shutdownlistener.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -164,7 +174,9 @@ LOCAL_SRC_FILES := proprietary/vendor/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
@@ -176,7 +188,9 @@ LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
@@ -188,7 +202,9 @@ LOCAL_SRC_FILES := proprietary/vendor/app/imssettings/imssettings.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
+WITH_DEXPREOPT := true
+LOCAL_DEX_PREOPT := true
+PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=speed
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
