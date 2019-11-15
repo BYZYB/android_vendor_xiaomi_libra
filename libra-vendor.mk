@@ -391,7 +391,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    $(VENDOR_PATH)/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
