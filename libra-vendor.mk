@@ -594,15 +594,9 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.server@1.0 \
     com.quicinc.cne.server@2.0 \
-    datastatusnotification \
-    fastdormancy \
     izat.xt.srv \
     libqminvapi \
     libtime_genoff \
     qcnvitems \
     qcrilhook \
-    qcrilmsgtunnel \
-    QtiTelephonyService \
-    QtiTelephonyServicelibrary \
-    shutdownlistener \
-    TimeService
+    QtiTelephonyServicelibrary
