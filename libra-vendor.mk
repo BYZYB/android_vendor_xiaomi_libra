@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     $(LOCAL_PATH)/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     $(LOCAL_PATH)/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    $(LOCAL_PATH)/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     $(LOCAL_PATH)/proprietary/vendor/bin/fidodaemon:$(TARGET_COPY_OUT_VENDOR)/bin/fidodaemon \
     $(LOCAL_PATH)/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     $(LOCAL_PATH)/proprietary/vendor/bin/gpsone_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/gpsone_daemon \
